@@ -6,7 +6,7 @@ This is the Docker container for the websocket server used in the production env
 
 This container extends `breki/common`, a container used as a base for web-based PHP projects. It expects an installation of Laravel to be mapped into the container's directory `/var/www`. Also, that Laravel installation needs to have the `beyondcode/laravel-websockets` package installed.
 
-Log files are made available by mapping the volume at `/var/log/websockets/`.
+Log files are made available by mapping the volume at `/var/log/websockets/`. The websocket service will run on port 6001.
 
 ## Copyright
 

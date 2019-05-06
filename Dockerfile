@@ -1,7 +1,5 @@
 FROM breki/common
 
-WORKDIR /etc
-
 RUN mkdir -p /etc/supervisor.d
 
 VOLUME /var/log/websockets
